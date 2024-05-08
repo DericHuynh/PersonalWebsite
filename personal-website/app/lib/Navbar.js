@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <Disclosure as="nav" className="flex flex-row-reverse h-full " defaultOpen={true}>
+        <Disclosure as="nav" className="flex flex-row-reverse h-full" defaultOpen={true}>
             <DisclosureButton className="group my-auto">
                 <ChevronDownIcon className="transition duration-400 relative size-5 text-white group-data-[open]:rotate-90 -rotate-90" />
             </DisclosureButton>
