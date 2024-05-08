@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="w-full flex flex-col from-gray-900 to-blue-900 bg-gradient-to-t">
-      <h1 className="mx-auto text-center text-2xl  sticky top-0 pb-1 bg-gray-900 w-full border-b-2 border-gray-800">About me:</h1>
+      <h1 className="mx-auto text-center text-2xl  sticky top-0 pb-1 bg-gray-900 w-full border-b-2 border-gray-800">About Me</h1>
       <div className="w-full flex flex-col gap-2 p-2 overflow-y-auto">
         <div className="flex flex-row justify-evenly">
           <Image src="/derichuynh.jpg" width="200" height="200" className="m-auto rounded-full"></Image>
