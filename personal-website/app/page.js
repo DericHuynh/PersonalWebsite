@@ -21,7 +21,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">What I've Done</h2>
+            <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">What I&apos;ve Done</h2>
             <p className="indent-5 px-1.5 bg-gray-900/40 rounded-r-md rounded-b-md border-gray-800">
               A significant focus of my personal projects has been the development of smart home systems. I successfully engineered a user-friendly website for smart home device management, utilizing Svelte and Tailwind CSS for the frontend, which achieved remarkably fast page load times. Additionally, I co-engineered an integrated smart home system, programming devices for varied functionalities, which communicated via the MQTT protocol with exceptional responsiveness. These projects underscore my ability to integrate front-end design with sophisticated back-end solutions, optimizing both user experience and system efficiency.
             </p>
