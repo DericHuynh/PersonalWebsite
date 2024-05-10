@@ -19,8 +19,7 @@ export default function Navbar() {
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/"><HomeIcon className="size-5"/>Home</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/resume"><ClipboardDocumentListIcon className="size-5"/>Resume</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/projects"><CodeBracketSquareIcon className="size-5" />Projects</Link>
-                    <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/activities"><DocumentIcon className="size-5" />Activites</Link>
-                    <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/settings"><Cog8ToothIcon className="size-5"/>Settings</Link>
+                    <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/activities"><DocumentIcon className="size-5" />Activities</Link>
                 </DisclosurePanel>
             </Transition>
             <DisclosureButton className="group my-auto">
