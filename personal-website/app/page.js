@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           
           <p className="indent-5 px-1.5 bg-gray-900/40 rounded-md  border-gray-800">
-            I am keen to leverage my technical skills, analytical capabilities, and proactive approach in a professional setting, eager to contribute to innovative engineering solutions. If you would like connect to discuss how we can collaborate on future technology projects, please navigate to the <b>Contacts</b> page.
+            I am keen to leverage my technical skills, analytical capabilities, and proactive approach in a professional setting, eager to contribute to innovative engineering solutions. If you would like to discuss on how we can collaborate on future projects, navigate to the <b>Contacts</b> page.
           </p>
         </div>
       </div>
