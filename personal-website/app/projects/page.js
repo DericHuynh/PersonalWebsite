@@ -1,5 +1,4 @@
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
-import Image from "next/image";
 import Asteroids from "./asteroids";
 import SmartHomeSystem from "./smarthomesystem";
 import Homelab from "./homelab";

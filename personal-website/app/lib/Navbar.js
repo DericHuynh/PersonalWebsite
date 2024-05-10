@@ -1,6 +1,5 @@
-import { Button, Disclosure, DisclosureButton, DisclosurePanel, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from '@heroicons/react/24/solid'
-import { CodeBracketSquareIcon, Cog8ToothIcon, DocumentIcon, HomeIcon, ClipboardDocumentListIcon } from '@heroicons/react/24/outline'
+import { Disclosure, DisclosureButton, DisclosurePanel, Transition } from "@headlessui/react";
+import { ChevronDownIcon, CodeBracketSquareIcon, DocumentIcon, HomeIcon, ClipboardDocumentListIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 
 export default function Navbar() {
@@ -20,6 +19,7 @@ export default function Navbar() {
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/resume"><ClipboardDocumentListIcon className="size-5"/>Resume</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/projects"><CodeBracketSquareIcon className="size-5" />Projects</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/activities"><DocumentIcon className="size-5" />Activities</Link>
+                    <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/contacts"><PhoneIcon className="size-5" />Contacts</Link>
                 </DisclosurePanel>
             </Transition>
             <DisclosureButton className="group my-auto">

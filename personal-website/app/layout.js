@@ -1,8 +1,4 @@
-import { Inter } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
-import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react';
-import { ChevronDownIcon } from '@heroicons/react/20/solid';
 import Navbar from "./lib/Navbar";
 
 export const metadata = {
