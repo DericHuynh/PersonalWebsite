@@ -23,7 +23,7 @@ export default function Navbar() {
                 </DisclosurePanel>
             </Transition>
             <DisclosureButton className="group my-auto">
-                <ChevronDownIcon className="transition duration-500 relative size-5 text-white group-data-[open]:rotate-90 -rotate-90" />
+                <ChevronDownIcon className="transition h-8 duration-500 relative size-5 text-white group-data-[open]:rotate-90 -rotate-90" />
             </DisclosureButton>
         </Disclosure>
     );
