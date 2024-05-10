@@ -16,9 +16,9 @@ export default function Navbar() {
                 <DisclosurePanel className="px-2 flex flex-col gap-3 text-white border-r-2  border-gray-800">
                     <p className="w-full mt-4 underline text-center">Deric Huynh</p>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/"><HomeIcon className="size-5"/>Home</Link>
-                    <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/resume"><ClipboardDocumentListIcon className="size-5"/>Resume</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/projects"><CodeBracketSquareIcon className="size-5" />Projects</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/activities"><DocumentIcon className="size-5" />Activities</Link>
+                    <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/resume"><ClipboardDocumentListIcon className="size-5"/>Resume</Link>
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/contacts"><PhoneIcon className="size-5" />Contacts</Link>
                 </DisclosurePanel>
             </Transition>
