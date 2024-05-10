@@ -24,7 +24,7 @@ export default function Home() {
           <div>
             <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">What I&apos;ve Done</h2>
             <p className="indent-5 px-1.5 bg-gray-900/40 rounded-r-md rounded-b-md border-gray-800">
-              A significant focus of my personal projects has been the development of smart home systems. I successfully engineered a user-friendly website for smart home device management, utilizing Svelte and Tailwind CSS for the frontend, which achieved remarkably fast page load times. Additionally, I co-engineered an integrated smart home system, programming devices for varied functionalities, which communicated via the MQTT protocol with exceptional responsiveness. These projects underscore my ability to integrate front-end design with sophisticated back-end solutions, optimizing both user experience and system efficiency.
+              One of my personal projects has been the development of smart home systems. I successfully engineered a user-friendly website for smart home device management, utilizing Svelte and Tailwind CSS for the frontend, which achieved remarkably fast page load times. Additionally, I co-engineered an integrated smart home system, programming devices for varied functionalities using MicroPython, which communicated via the MQTT protocol with exceptional responsiveness. A C# ASP.NET server would take the MQTT packets and route them to other devices depending on the relationships in the database. Another project I've developed was a Asteroids recreation from scratch in Java using the Eclipse IDE. Using JFrame as a canvas, I was able to implement a tick-render loop with time deltas to operate the game. The game runs smoothly with a clearly labelled user interface and responsive controls. These projects underscore my ability to integrate front-end design with sophisticated back-end solutions, optimizing both user experience and system efficiency.
             </p>
           </div>
           <div>
@@ -39,10 +39,12 @@ export default function Home() {
               Beyond technical pursuits, I actively participate in the Edmonton Advanced Toastmasters club, enhancing my public speaking skills and contributing to workshops and speeches that have been consistently lauded by senior members. My entrepreneurial spirit was also cultivated through two years of involvement in Junior Achievement, where I developed and marketed products as part of a small business team.
             </p>
           </div>
-          
-          <p className="indent-5 px-1.5 bg-gray-900/40 rounded-md  border-gray-800">
-            I am keen to leverage my technical skills, analytical capabilities, and proactive approach in a professional setting, eager to contribute to innovative engineering solutions. If you would like to discuss on how we can collaborate on future projects, navigate to the <b><Link href="/contacts">Contacts</Link></b> page.
-          </p>
+          <div>
+          <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">Going Forward</h2>
+            <p className="indent-5 px-1.5 bg-gray-900/40 rounded-b-md rounded-r-md border-gray-800">
+              I am keen to leverage my technical skills, analytical capabilities, and proactive approach in a professional setting, eager to contribute to innovative engineering solutions. If you would like to discuss on how we can collaborate on future projects, navigate to the <b><Link href="/contacts">Contacts</Link></b> page.
+            </p>
+          </div>
         </div>
       </div>
     </main>
