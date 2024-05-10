@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="w-full flex flex-col bg-blue-900">
       <h1 className="mx-auto text-center text-2xl  sticky top-0 pb-1 bg-gray-900 w-full border-b-2 pr-1 border-gray-800">Contacts</h1>
-      <div className="flex flex-col gap-2 p-2 overflow-y-auto grow">
+      <div className="flex mx-auto max-w-fit flex-col gap-2 p-2 overflow-y-auto grow">
         <table>
           <thead>
             <tr className="border-2 bg-white/10 border-white/15">
@@ -23,8 +23,8 @@ export default function Home() {
             {contacts.map(function(contact) {
               return (
                 <tr className="border-2 bg-white/10 border-white/15" key={contact.id}>
-                  <td className="pl-2 border-2 border-white/15">{contact.method}</td>
-                  <td className="pl-2 border-2 border-white/15">{contact.mailto ? (<a className="text-blue-300" href={"mailto:" + contact.contact}>{contact.contact}</a>) : (contact.contact)}</td>
+                  <td className="px-2 border-2 border-white/15">{contact.method}</td>
+                  <td className="px-2 border-2 border-white/15">{contact.mailto ? (<a className="text-blue-300" href={"mailto:" + contact.contact}>{contact.contact}</a>) : (contact.contact)}</td>
                 </tr>
               )
             })}

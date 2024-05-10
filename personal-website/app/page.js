@@ -34,7 +34,7 @@ export default function Home() {
           </div>
           <div>
             <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">Personal Development</h2>
-            <p className="indent-5 px-1.5 bg-gray-900/40 rounded-md rounded-r-md rounded-b-md  border-gray-800">
+            <p className="indent-5 px-1.5 bg-gray-900/40 rounded-r-md rounded-b-md  border-gray-800">
               Beyond technical pursuits, I actively participate in the Edmonton Advanced Toastmasters club, enhancing my public speaking skills and contributing to workshops and speeches that have been consistently lauded by senior members. My entrepreneurial spirit was also cultivated through two years of involvement in Junior Achievement, where I developed and marketed products as part of a small business team.
             </p>
           </div>
