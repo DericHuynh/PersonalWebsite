@@ -29,9 +29,18 @@ export default function Home() {
           </div>
           <div>
             <h2 className="ml-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">Front-end Skillset</h2>
-            <p className="flex flex-row indent-5 px-1.5 bg-gray-900/40 rounded-l-md rounded-b-md  border-gray-800">
+            <div className="flex flex-col indent-5 bg-gray-900/40 rounded-b-md rounded-r-md border-gray-800">
+              <p className="ml-2">
               I possess extensive expertise in web development, with a strong proficiency in a variety of technologies and frameworks. My skills include working with React, which I used to build this portfolio website, creating a dynamic and responsive user experience. Tailwind CSS has been instrumental in styling this site, enabling efficient, consistent theming across pages. My web development toolkit also includes Svelte, a modern tool for building efficient, reactive web interfaces, along with foundational web technologies such as HTML, CSS, JavaScript, and PHP. These skills enable me to build seamless, scalable, and interactive web applications tailored to user needs.
-            </p>
+              </p>
+              <div className="flex gap-2 bg-white/5 m-auto my-1 px-2 overflow-x-auto rounded-md">
+                <Image src="/react.svg" width="100" height="100" className="m-1.5 rounded"></Image>
+                <Image src="/tailwindcss.svg" width="100" height="100" className="m-1.5 rounded"></Image>
+                <Image src="/svelte.svg" width="80" height="80" className="m-1.5 rounded"></Image>
+                <Image src="/html5.svg" width="100" height="100" className="m-1.5 rounded"></Image>
+                <Image src="/php.svg" width="100" height="100" className="m-1.5 rounded"></Image>
+              </div>
+            </div>
           </div>
           <div>
             <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">Personal Development</h2>
