@@ -7,7 +7,7 @@ export default function Homelab() {
       <p className="w-full bg-white/10 px-2">
         A networking homelab to test and experiement with hosting. Managed the server using IDRAC 8 through the management port, aswell as SSH for OS configuration.
       </p>
-      <iframe className="h-full w-full rounded-b-md" src="https://www.youtube.com/embed/IwzN57SE_xU?si=m3N3JixWut_JfSgC&vq=hd1080p60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; fullscreen; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen mozallowfullscreen webkitallowfullscreen></iframe>
+      <Image src="/initial-homelab.jpg" width="1000" height="10000"></Image>
     </div>
   );
 }
