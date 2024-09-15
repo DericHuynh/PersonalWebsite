@@ -13,14 +13,12 @@ export default function Home() {
         <div className="flex flex-col m-2 gap-2">
           <div>
             <h2 className="mr-auto w-fit text-xl font-mono px-3 rounded-t-md bg-gray-900/40 border-b-2 border-white/20">Who am I</h2>
-            <div className="flex flex-row indent-5 bg-gray-900/40 rounded-b-md rounded-r-md border-gray-800">
+            <div className="flex flex-row indent-5 bg-gray-900/40 min-h-40 rounded-b-md rounded-r-md border-gray-800">
               <p className="ml-2">
                 I&apos;m a Computer Engineering Technology graduate at the Northern Alberta Institute of Technology, having achieved a <b className="text-yellow-400">3.9</b> GPA. Based in Edmonton, my academic and professional journey is characterized by deep technical expertise and innovative problem-solving.
                 I&apos;ve engaged in diverse projects encompassing web and software development, embedded systems, electronic and PCB design, and database management.
               </p>
-              <div>
                 <Image src="/nait.svg" width="100" height="100" className="m-1.5 rounded" alt="Nait logo"></Image>
-              </div>
             </div>
           </div>
           <div>
