@@ -22,7 +22,7 @@ export default function Navbar() {
                     <Link className="px-1 bg-slate-800 shadow rounded hover:bg-gray-700 flex flex-row items-center gap-1.5 pr-1.5" href="/contacts"><PhoneIcon className="size-5" />Contacts</Link>
                 </DisclosurePanel>
             </Transition>
-            <DisclosureButton className="group my-auto">
+            <DisclosureButton className="group my-auto" aria-label="toggle-navbar">
                 <ChevronDownIcon className="transition h-8 duration-500 relative size-5 text-white group-data-[open]:rotate-90 -rotate-90" />
             </DisclosureButton>
         </Disclosure>

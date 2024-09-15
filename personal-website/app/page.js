@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="mx-auto text-center text-2xl sticky top-0 pb-1 bg-gray-900 w-full border-b-2 border-gray-800">About Me</h1>
       <div className="w-full flex flex-col gap-2 overflow-y-auto">
         <div className="flex flex-row justify-evenly p-2 pb-0 to-transparent from-white/30 bg-gradient-to-b">
-          <Image src="/derichuynh.webp" width="196" height="261" className="m-auto rounded-full border-2 border-gray-800"></Image>
+          <Image src="/derichuynh.webp" width="196" height="261" className="m-auto rounded-full border-2 border-gray-800" alt="Picture of Deric Huynh"></Image>
         </div>
         <p className="m-auto text-center px-3 rounded-full bg-gray-900/70 font-serif">Deric Huynh</p>
         <div className="flex flex-col m-2 gap-2">
@@ -18,7 +18,9 @@ export default function Home() {
                 I&apos;m a Computer Engineering Technology graduate at the Northern Alberta Institute of Technology, having achieved a <b className="text-yellow-400">3.9</b> GPA. Based in Edmonton, my academic and professional journey is characterized by deep technical expertise and innovative problem-solving.
                 I&apos;ve engaged in diverse projects encompassing web and software development, embedded systems, electronic and PCB design, and database management.
               </p>
-              <Image src="/nait.svg" width="100" height="100" className="m-1.5 rounded"></Image>
+              <div>
+                <Image src="/nait.svg" width="100" height="100" className="m-1.5 rounded" alt="Nait logo"></Image>
+              </div>
             </div>
           </div>
           <div>
@@ -34,11 +36,11 @@ export default function Home() {
               I possess extensive expertise in web development, with a strong proficiency in a variety of technologies and frameworks. My skills include working with React, which I used to build this portfolio website, creating a dynamic and responsive user experience. Tailwind CSS has been instrumental in styling this site, enabling efficient, consistent theming across pages. My web development toolkit also includes Svelte, a modern tool for building efficient, reactive web interfaces, along with foundational web technologies such as HTML, CSS, JavaScript, and PHP. These skills enable me to build seamless, scalable, and interactive web applications tailored to user needs.
               </p>
               <div className="flex gap-2 bg-white/5 m-auto my-1 px-2 overflow-x-auto rounded-md">
-                <Image src="/react.svg" width="100" height="100" className="m-1.5 rounded"></Image>
-                <Image src="/tailwindcss.svg" width="100" height="100" className="m-1.5 rounded"></Image>
-                <Image src="/svelte.svg" width="80" height="80" className="m-1.5 rounded"></Image>
-                <Image src="/html5.svg" width="100" height="100" className="m-1.5 rounded"></Image>
-                <Image src="/php.svg" width="100" height="100" className="m-1.5 rounded"></Image>
+                <Image src="/react.svg" width="100" height="100" className="m-1.5 rounded" alt="React logo"></Image>
+                <Image src="/tailwindcss.svg" width="100" height="100" className="m-1.5 rounded" alt="Tailwind logo"></Image>
+                <Image src="/svelte.svg" width="80" height="80" className="m-1.5 rounded" alt="Svelte logo"></Image>
+                <Image src="/html5.svg" width="100" height="100" className="m-1.5 rounded" alt="Html5 logo"></Image>
+                <Image src="/php.svg" width="100" height="100" className="m-1.5 rounded" alt="PHP logo"></Image>
               </div>
             </div>
           </div>
