@@ -7,7 +7,7 @@ export default function Home() {
       <h1 className="mx-auto text-center text-2xl sticky top-0 pb-1 bg-gray-900 w-full border-b-2 border-gray-800">About Me</h1>
       <div className="w-full flex flex-col gap-2 overflow-y-auto">
         <div className="flex flex-row justify-evenly p-2 pb-0 to-transparent from-white/30 bg-gradient-to-b">
-          <Image src="/derichuynh.jpg" width="200" height="200" className="m-auto rounded-full border-2 border-gray-800"></Image>
+          <Image src="/derichuynh.webp" width="200" height="200" className="m-auto rounded-full border-2 border-gray-800"></Image>
         </div>
         <p className="m-auto text-center px-3 rounded-full bg-gray-900/70 font-serif">Deric Huynh</p>
         <div className="flex flex-col m-2 gap-2">
